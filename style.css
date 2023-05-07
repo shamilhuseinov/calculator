@@ -1,0 +1,61 @@
+  body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+  }
+
+  #common{
+    background-color: black;
+    width: 210px;
+    border-radius: 25px;
+  }
+
+  #answer{
+    height: 30px;
+    color: white;
+    font-size: 60px;
+    display: flex;
+    position: relative;
+    right: 11px;
+    justify-content: flex-end;
+  }
+
+  tr{
+    display: flex;
+    color: white;
+  }
+
+  button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: transparent;
+    color: white;
+    font-size: 20px;
+  }
+
+  .grayOperators{
+    background-color: lightgray;
+    color: black;
+  }
+
+  .orangeOperators{
+    background-color: rgb(248, 172, 29);
+  }
+
+  .orangeOperators:focus{
+    background-color: white;
+    color: rgb(248, 172, 29);
+  }
+
+  .numbers{
+    background-color: rgb(118, 117, 117);
+  }
+
+  #zero{
+    width: 100px;
+    border-radius: 25px;
+  }
